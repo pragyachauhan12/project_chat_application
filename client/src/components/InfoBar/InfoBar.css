@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #2979FF;
+  background: #FFA17F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 4px 4px 0 0;
   height: 60px;
   width: 100%;
